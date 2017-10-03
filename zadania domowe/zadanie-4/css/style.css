@@ -1,0 +1,31 @@
+            /* general */
+body {
+    background-color: #fff;
+    font-family: verdana;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+            /* nagłówek */
+.header {
+    position: relative;
+    background-image: url(../obrazy/man-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.header--tekst {
+    position: absolute;
+    color:  #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: left;
+    top: 50%;
+    margin-left: 50px;
+}
+
+.linia2 {
+    font-size: 3em;
+}
