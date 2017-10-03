@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
+    
 </head>
 
 <body>
-    <form action="https://formspree.io/oli.b@outlook.com" method="post"></form>
+    <form action="https://formspree.io/oli.b@outlook.com" method="POST">
 
     <!--  imię  -->
 
@@ -34,32 +35,35 @@
     <label for="select-city">Wybierz miasto</label><br>
 
     <select name="select-city" id="select-city">
-        <option value="Kraków">Kraków</option>
-        <option value="Warszawa">Warszawa</option>
-        <option value="Gdańsk">Gdańsk</option>
+         <option value="empty">---</option>
+         <option value="Kraków">Kraków</option>
+         <option value="Warszawa">Warszawa</option>
+         <option value="Gdańsk">Gdańsk</option>
     </select><br>
 
     <!--  płeć - radio  -->
+    
+    <input type="radio" name="plec" id="kobieta" value="kobieta">
+    <label for="kobieta">Kobieta</label>
+    <input type="radio" name="plec" id="mezczyzna" value="mezczyzna">
+    <label for="mezczyzna">Mężczyzna</label><br>
 
-    <label for="plec">Płeć</label><br>
-    <input type="text" name="plec" id="plec"><br>
-
-    <input type="radio" name="plec" id="kobieta" value="kobieta">Kobieta
-    <input type="radio" name="plec" id="mezczyzna" value="mezczyzna">Mężczyzna<br>
-
-    <!-- zgoda na dane osobowe - checkbox -->
-
-    <input type="checkbox" name="dane-osobowe" id="dane-osobowe">
-    <label for="dane-osobowe">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb tej witryny (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922).</label><br>
 
     <!--  wiadomość -->
 
     <label for="wiadomosc">Wiadomość</label><br>
     <textarea name="wiadomosc" id="wiadomosc" maxlength="500" cols="30" rows="10"></textarea><br>
 
+   <!-- zgoda na dane osobowe - checkbox -->
+
+    <input type="checkbox" name="dane-osobowe" id="dane-osobowe">
+    <label for="dane-osobowe">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb tej witryny (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922).</label><br>
+
     <!--  wyślij  -->
 
     <input type="submit" value="Wyślij"><br>
+
+</form>
 
 </body>
 
