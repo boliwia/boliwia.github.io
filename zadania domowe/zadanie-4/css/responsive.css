@@ -1,0 +1,36 @@
+
+@media all and (min-width: 1170px) {
+    .header {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1170px) {
+    .header {
+        background-image: url(../obrazy/man-2.jpg);
+        width: 100%;
+        height: 70vh;
+        
+    }
+    .header--tekst {
+        right: 30px;
+        top: 10%;
+        margin-right: 50px;
+    }
+}
+
+
+@media all and (max-width: 992px) {
+    .header {
+        width: 100%;
+        height: 50vh;
+    }
+    .header--tekst {
+        color: #222;
+        text-align: center;
+        margin-top: 30vh;
+        margin-left: 20%;
+        margin-right: 20%;
+
+    }
+}
