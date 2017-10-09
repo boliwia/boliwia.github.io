@@ -1,0 +1,71 @@
+            /*general*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #98fb98;
+    position: relative;
+}
+
+        /* yerba  - początek */
+.produkt {
+    width: 100%;
+    position: absolute;
+}
+
+.yerba {
+    width: 350px;
+    height: 350px;
+    margin: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* poszczególne produkty - tło */
+
+.p1 {
+    background-image: url(../img/product-1.jpg)
+}
+
+.p2 {
+    background-image: url(../img/product-2.jpg)
+}
+
+.p3 {
+    background-image: url(../img/product-3.jpg)
+}
+
+.p4 {
+    background-image: url(../img/product-4.jpg)
+}
+
+
+        /*maska*/
+
+.item-mask {
+    background-color: #ff6f00;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s;
+    position: relative;
+
+}
+
+.fa-shopping-cart {
+    color: #fff;
+    font-size: 5em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -13%;
+}
+
+.item-mask:hover {
+    opacity: 0.5;
+}

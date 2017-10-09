@@ -1,0 +1,7 @@
+
+@media all and (max-width: 992px) {
+    width: 49%;
+}
+@media all and (max-width: 480px) {
+    width: 100%;
+}
