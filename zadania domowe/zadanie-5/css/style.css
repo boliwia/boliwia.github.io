@@ -15,12 +15,14 @@ body {
 }
 
 .yerba {
-    width: 300px;
+    width: 20%;
     height: 300px;
-    margin-left: 5%;
     text-align: center;
     display: inline-block;
     margin-top: 13%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

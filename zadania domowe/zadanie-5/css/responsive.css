@@ -1,7 +1,13 @@
 
 @media all and (max-width: 992px) {
-    width: 49%;
+    .yerba {
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
 }
 @media all and (max-width: 480px) {
-    width: 100%;
+    .yerba {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
 }
