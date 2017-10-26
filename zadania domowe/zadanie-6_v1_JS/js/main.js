@@ -59,6 +59,9 @@ function pobierzDane(event) {
 
             console.log('imię: ' + jsonObj.imie + ' ' + 'nazwisko: ' + jsonObj.nazwisko + ' ' + 'zawód: ' + jsonObj.zawod + ' ' + 'firma: ' + jsonObj.firma);
 
+            var div = document.createElement('div');
+            div.id = 'dane-programisty';
+            document.body.appendChild(div);
 
             var wynik = document.createElement('div');
             wynik.innerText = 'imię: ' + jsonObj.imie + ' ' + 'nazwisko: ' + jsonObj.nazwisko + ' ' + 'zawód: ' + jsonObj.zawod + ' ' + 'firma: ' + jsonObj.firma;
@@ -82,6 +85,9 @@ function pobierzDane2(event) {
 
             console.log('imię: ' + jsonObj.imie + ' ' + 'nazwisko: ' + jsonObj.nazwisko + ' ' + 'zawód: ' + jsonObj.zawod + ' ' + 'firma: ' + jsonObj.firma);
 
+            var div = document.createElement('div');
+            div.id = 'dane-programisty2';
+            document.body.appendChild(div);
 
             var wynikImie = document.createElement('div');
             wynikImie.innerText = 'imię: ' + jsonObj.imie;
