@@ -1,0 +1,276 @@
+                                /*general*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #291f1a;
+    font-family: "Lato";
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5% 5% 5% 5%;
+    background-color: #f9fcfe;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+                        /*menu  - start  */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+#main-nav {
+    transition: all 0.3s;
+}
+
+#main-nav.transparent_back {
+    background-color: rgba(156, 159, 162, 0.51);
+}
+
+
+                    /*menu  - end  */
+
+                            /*nagłówek  start*/
+
+
+.header-1 {
+    position: relative;
+    background-image: url(../portfolio-grafiki/img/header-background.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.header-1-inner {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: roboto;
+    color: #fff;
+    font-size: 20px;
+}
+
+span {
+     color: #1ac056;
+}
+
+                                /*nagłówek  stop*/
+
+
+                                /*sekcje z treścią - start */
+
+
+                                /* header o mnie - start */
+
+.header__o-mnie {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+                                /*header o mnie - stop */
+
+    
+.moje-zdjecie {
+    height: 300px;
+    width: 300px;
+    background-image: url(../portfolio-grafiki/img/jan-nowak.jpg);
+    background-size: cover;
+}
+
+
+                                /* opis o mnie - stop */
+
+
+
+                                /* moje umiejetnosci - start */
+
+.header__umiejetnosci {
+    text-align: center;
+    line-height: 30px;
+}
+
+.content__2 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 3%;
+}
+
+.container_inner, .opis {
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+}
+
+                            /* moje umiejetnosci - stop */
+
+
+
+
+                            /* moje portfolio - start */
+
+.header__portfolio {
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.portfolio_pad {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.single-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#portfolio-item-1 {
+    background-image: url(../portfolio-grafiki/img/portfolio1.jpg)
+}
+
+#portfolio-item-2 {
+    background-image: url(../portfolio-grafiki/img/portfolio2.jpg)
+}
+
+#portfolio-item-3 {
+    background-image: url(../portfolio-grafiki/img/portfolio4.jpg)
+}
+
+.item-mask {
+    height: 100%;
+    background-color: rgba(33, 59, 80, 0.49);
+    padding: 7px;
+    position: relative;
+
+}
+
+.item-mask-inner {
+    border: 1px solid #fff;
+    opacity: 0;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.item-mask-inner:hover{
+    opacity: 1;
+}
+
+.item-content {
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    width: 95%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+                                /* moje portfolio - stop */
+
+
+                                /*sekcje z treścią - stop */
+
+
+                                /*kontakt*/
+
+                                /*adres - start */
+.dane-kontaktowe {
+    background-color: #213b50;
+    width: 100%;
+}
+
+
+.adres {
+    margin-left: 10%;
+    font-style: normal;
+    color: #fff;
+}
+
+.im-nazw {
+    font-size: 1.5em;
+}
+
+                                    /*socialmedia */
+
+.social-link {
+    color: #fff;
+    border: 1px solid #fff;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.5em;
+    line-height: 50px;
+    text-align: center;
+}
+
+                                    /*adres - stop */
+
+                                    /* formularz - start */
+
+
+.dane {
+    background-color: #1e4667; 
+    color: #fff;
+    border: 0 groove; 
+    width: 100%;
+}
+
+.dane:focus {
+    background-color: #2884d0;
+}
+
+textarea {
+    background-color: #1e4667; 
+    border: 0 groove; 
+    width: 100%;
+    height: 70px;
+}
+
+textarea:focus {
+    background-color: #2884d0;
+}
+
+.wyslij {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.myBtn {
+    background-color: #32cd32;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;   
+    align-self: flex-end;
+}
+
+.myBtn:hover {
+    background-color: #bdf554;
+}
+
+
+
+                                /* formularz - stop */
+
+                                /*kontakt - stop*/
+
+
+                                /* footer - start */
+.copyright {
+    background-color: #0b2234;
+    color: #fff;
+    width: 100%;
+    height: 20px;
+    text-indent: 5%;
+}
+
+                            /* footer - stop */
