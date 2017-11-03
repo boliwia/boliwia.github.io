@@ -83,6 +83,7 @@ span {
     width: 300px;
     background-image: url(../portfolio-grafiki/img/jan-nowak.jpg);
     background-size: cover;
+    display: inline-block;
 }
 
 
@@ -129,7 +130,9 @@ span {
 .single-item {
     height: 350px;
     background-repeat: no-repeat;
+/*
     object-fit: cover;
+*/
 }
 
 #portfolio-item-1 {
@@ -188,7 +191,9 @@ span {
 
 
 .adres {
+/*
     margin-left: 10%;
+*/
     font-style: normal;
     color: #fff;
 }

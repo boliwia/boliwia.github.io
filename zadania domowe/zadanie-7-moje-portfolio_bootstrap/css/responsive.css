@@ -9,7 +9,12 @@
         background-clip: border-box;
     }
     .adres, form {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dane, textarea {
+        width: 100%;
     }
 }
 
@@ -19,7 +24,7 @@
         height: 600px;
     }
     .dane, textarea {
-        width: 300px;
+        width: 100%;
     }
 }
 
@@ -34,6 +39,6 @@
 
 @media all and (max-width: 450px) {    
     .dane, textarea {
-        width: 200px;
+        width: 100%;
     }
 }
