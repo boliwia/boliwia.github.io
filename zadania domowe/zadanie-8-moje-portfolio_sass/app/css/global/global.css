@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5% 5% 5% 5%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#main-nav {
+    transition: all 0.3s;
+}
+
+#main-nav.transparent_back {
+    background-color: rgba(156, 159, 162, 0.51);
+}
+
+#main-nav .nav-link {
+    color: #ffffff;
+}
+
+.header-1 {
+    position: relative;
+    background-image: url(../../portfolio-grafiki/img/header-background.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.header-1-inner {
+    position: absolute;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#o-mnie {
+    background-color: #f9fcfe;
+}
+
+#o-mnie .header__o-mnie {
+    text-align: center;
+    padding-bottom: 3%;
+    font-family: "Lato", sans-serif;
+}
+
+#o-mnie .moje-zdjecie {
+    height: 300px;
+    width: 300px;
+    background-image: url(../../portfolio-grafiki/img/jan-nowak.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+#o-mnie .o-mnie__inner {
+    font-family: "Lato", sans-serif;
+    color: #291f1a;
+}
+
+#umiejetnosci {
+    color: #291f1a;
+    font-family: "Lato", sans-serif;
+}
+
+#umiejetnosci .header__umiejetnosci {
+    text-align: center;
+    line-height: 30px;
+}
+
+#umiejetnosci .content__2 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 3%;
+}
+
+#umiejetnosci .container_inner,
+  #umiejetnosci .opis {
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+}
+
+#portfolio {
+    color: #291f1a;
+    font-family: "Lato", sans-serif;
+}
+
+#portfolio .header__portfolio {
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#portfolio .portfolio_pad {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#portfolio .single-item {
+    height: 350px;
+    background-repeat: no-repeat;
+}
+
+#portfolio #portfolio-item-1 {
+    background-image: url(../../portfolio-grafiki/img/portfolio1.jpg);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#portfolio #portfolio-item-2 {
+    background-image: url(../../portfolio-grafiki/img/portfolio2.jpg);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#portfolio #portfolio-item-3 {
+    background-image: url(../../portfolio-grafiki/img/portfolio4.jpg);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#portfolio .item-mask {
+    height: 100%;
+    background-color: rgba(33, 59, 80, 0.49);
+    padding: 7px;
+    position: relative;
+}
+
+#portfolio .item-mask-inner {
+    border: 1px solid #fff;
+    opacity: 0;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+#portfolio .item-mask-inner:hover {
+    opacity: 1;
+}
+
+#portfolio .item-content {
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+#kontakt {
+    background-color: #213b50;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    width: 100%;
+  /*socialmedia */
+  /*adres - stop */
+  /* formularz - start */
+}
+
+#kontakt .adres {
+    font-style: normal;
+}
+
+#kontakt .im-nazw {
+    font-size: 1.5em;
+}
+
+#kontakt .social-link {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.5em;
+    line-height: 50px;
+    text-align: center;
+}
+
+#kontakt .dane {
+    background-color: #1e4667;
+    color: #ffffff;
+    border: 0 groove;
+    width: 100%;
+}
+
+#kontakt .dane:focus {
+    background-color: #2884d0;
+}
+
+#kontakt textarea {
+    background-color: #1e4667;
+    color: #ffffff;
+    border: 0 groove;
+    width: 100%;
+    height: 70px;
+}
+
+#kontakt textarea:focus {
+    background-color: #2884d0;
+}
+
+#kontakt .wyslij {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#kontakt .myBtn {
+    background-color: #1ac056;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 0;
+    align-self: flex-end;
+}
+
+#kontakt .myBtn:hover {
+    background-color: #bdf554;
+}
+
+.copyright {
+    background-color: #14324a;
+    color: #ffffff;
+    width: 100%;
+    height: 20px;
+    text-indent: 5%;
+    padding-bottom: 1.5%;
+}
+
+span {
+    color: #1ac056;
+}

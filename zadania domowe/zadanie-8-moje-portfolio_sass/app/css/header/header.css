@@ -1,0 +1,18 @@
+.header-1 {
+    position: relative;
+    background-image: url(../../portfolio-grafiki/img/header-background.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.header-1-inner {
+    position: absolute;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 20px;
+}

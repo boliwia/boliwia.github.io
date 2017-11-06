@@ -1,0 +1,71 @@
+#kontakt {
+    background-color: #213b50;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    width: 100%;
+  /*socialmedia */
+  /*adres - stop */
+  /* formularz - start */
+}
+
+#kontakt .adres {
+    font-style: normal;
+}
+
+#kontakt .im-nazw {
+    font-size: 1.5em;
+}
+
+#kontakt .social-link {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.5em;
+    line-height: 50px;
+    text-align: center;
+}
+
+#kontakt .dane {
+    background-color: #1e4667;
+    color: #ffffff;
+    border: 0 groove;
+    width: 100%;
+}
+
+#kontakt .dane:focus {
+    background-color: #2884d0;
+}
+
+#kontakt textarea {
+    background-color: #1e4667;
+    color: #ffffff;
+    border: 0 groove;
+    width: 100%;
+    height: 70px;
+}
+
+#kontakt textarea:focus {
+    background-color: #2884d0;
+}
+
+#kontakt .wyslij {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#kontakt .myBtn {
+    background-color: #1ac056;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 0;
+    align-self: flex-end;
+}
+
+#kontakt .myBtn:hover {
+    background-color: #bdf554;
+}

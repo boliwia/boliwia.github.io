@@ -1,0 +1,18 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+.header-1 {
+    position: relative;
+    background-image: url(../../portfolio-grafiki/img/header-background.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.header-1-inner {
+    position: absolute;
+    width: 100%;
+    @include absolute-center;
+    font-family: $fontNaglowek;
+    color: $bialy;
+    font-size: 20px;
+}

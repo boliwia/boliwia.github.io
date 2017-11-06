@@ -1,0 +1,66 @@
+#portfolio {
+    color: #291f1a;
+    font-family: "Lato", sans-serif;
+}
+
+#portfolio .header__portfolio {
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#portfolio .portfolio_pad {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#portfolio .single-item {
+    height: 350px;
+    background-repeat: no-repeat;
+}
+
+#portfolio #portfolio-item-1 {
+    background-image: url(../../portfolio-grafiki/img/portfolio1.jpg);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#portfolio #portfolio-item-2 {
+    background-image: url(../../portfolio-grafiki/img/portfolio2.jpg);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#portfolio #portfolio-item-3 {
+    background-image: url(../../portfolio-grafiki/img/portfolio4.jpg);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#portfolio .item-mask {
+    height: 100%;
+    background-color: rgba(33, 59, 80, 0.49);
+    padding: 7px;
+    position: relative;
+}
+
+#portfolio .item-mask-inner {
+    border: 1px solid #fff;
+    opacity: 0;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+#portfolio .item-mask-inner:hover {
+    opacity: 1;
+}
+
+#portfolio .item-content {
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}

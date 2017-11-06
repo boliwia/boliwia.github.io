@@ -1,0 +1,26 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+
+#o-mnie {
+    background-color: $tlo;
+
+    .header__o-mnie {
+        text-align: center;
+        padding-bottom: 3%;
+        font-family: $fontBazowy;
+    }
+
+    .moje-zdjecie {
+        height: 300px;
+        width: 300px;
+        background-image: url(../../portfolio-grafiki/img/jan-nowak.jpg);
+        background-size: cover;
+        display: inline-block;
+    }
+
+    .o-mnie__inner {
+        font-family: $fontBazowy;
+        color: $czarny;
+    }
+}

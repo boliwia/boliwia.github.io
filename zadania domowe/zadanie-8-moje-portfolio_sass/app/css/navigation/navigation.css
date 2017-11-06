@@ -1,0 +1,11 @@
+#main-nav {
+    transition: all 0.3s;
+}
+
+#main-nav.transparent_back {
+    background-color: rgba(156, 159, 162, 0.51);
+}
+
+#main-nav .nav-link {
+    color: #ffffff;
+}

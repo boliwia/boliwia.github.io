@@ -1,0 +1,25 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+#umiejetnosci {
+    color: $czarny;
+    font-family: $fontBazowy;
+    
+    .header__umiejetnosci {
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .content__2 {
+        text-align: center;
+        position: relative;
+        padding-bottom: 3%;
+    }
+
+    .container_inner,
+    .opis {
+        display: flex;
+        justify-content: center;
+        line-height: 30px;
+    }
+}

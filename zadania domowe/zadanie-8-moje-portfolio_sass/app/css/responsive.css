@@ -1,0 +1,44 @@
+
+@media all and (max-width: 992px) {    
+    .moje-zdjecie {
+        display: inline-block;
+    }
+    #portfolio-item-3 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: border-box;
+    }
+    .adres, form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dane, textarea {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 850px) {    
+    .dane-kontaktowe {
+        height: 600px;
+    }
+    .dane, textarea {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {    
+    #portfolio-item-1, #portfolio-item-2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: border-box;
+    }
+}
+
+
+@media all and (max-width: 450px) {    
+    .dane, textarea {
+        width: 100%;
+    }
+}

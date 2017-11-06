@@ -1,0 +1,32 @@
+@import '../variables/variables';
+
+@mixin absolute-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+@mixin portfolio-item-cover {
+    background-size: cover;
+    background-clip: border-box;
+}
+
+@mixin social-link {
+    color: $bialy;
+    border: 1px solid $bialy;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.5em;
+    line-height: 50px;
+    text-align: center;
+}
+
+@mixin form-filed {
+    background-color: $tloFormField; 
+    color: $bialy;
+    border: 0 groove; 
+    width: 100%;
+}

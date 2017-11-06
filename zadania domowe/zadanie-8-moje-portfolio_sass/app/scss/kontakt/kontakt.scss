@@ -1,0 +1,60 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+#kontakt {
+    background-color: $tloKontakt;
+    font-family: $fontBazowy;
+    color: $bialy;
+    width: 100%;
+
+    .adres {
+        font-style: normal;
+    }
+
+    .im-nazw {
+        font-size: 1.5em;
+    }
+
+    /*socialmedia */
+    .social-link {
+        @include social-link;
+    }
+
+    /*adres - stop */
+    /* formularz - start */
+    .dane {
+        @include form-filed;
+    }
+
+    .dane:focus {
+        background-color: #2884d0;
+    }
+
+    textarea {
+        @include form-filed;
+        height: 70px;
+    }
+
+    textarea:focus {
+        background-color: #2884d0;
+    }
+
+    .wyslij {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .myBtn {
+        background-color: $zielony;
+        color: $bialy;
+        text-transform: uppercase;
+        border: 0;
+        align-self: flex-end;
+    }
+
+    .myBtn:hover {
+        background-color: #bdf554;
+    }
+}

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5% 5% 5% 5%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+@import '../variables/variables';
+@import '../mixins/mixins';
+@import '../navigation/navigation';
+@import '../header/header';
+@import '../o-mnie/o-mnie';
+@import '../moje-umiejetnosci/moje-umiejetnosci';
+@import '../moje-portfolio/moje-portfolio';
+@import '../kontakt/kontakt';
+@import '../copyrights/copyrights';
+
+span {
+    color: $zielony;
+}
